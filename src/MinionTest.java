@@ -1,12 +1,17 @@
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import extra.Minion;
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2018
  *    Level 1
  */
 
 
-import static org.junit.Assert.*;
 
-import org.junit.Test;
+
 
 
 /*
@@ -33,7 +38,6 @@ This is because there is no Minion class in the package.
  */
 
 public class MinionTest {
-
 	@Test
 	public void testConstructor() {
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
